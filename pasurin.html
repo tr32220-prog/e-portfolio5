@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arisara | My E-Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:'Prompt',sans-serif;background:#fbfaff;color:#344467}
+nav{position:sticky;top:0;z-index:10;background:#ffffffed;display:flex;justify-content:space-between;align-items:center;padding:18px 8%;box-shadow:0 3px 15px #526b9815}
+.logo{font-size:21px;font-weight:700;color:#527ed1}
+nav ul{display:flex;gap:20px;list-style:none}
+nav a{text-decoration:none;color:#53617c;font-size:14px}
+nav a:hover{color:#e77bb7}
+.hero{min-height:570px;padding:75px 10%;display:flex;align-items:center;justify-content:space-between;gap:35px;flex-wrap:wrap;background:linear-gradient(120deg,#e7f1ff,#fff0f8,#f1eaff)}
+.hero-text{max-width:570px}
+.hero small{color:#db73b0;font-weight:600;letter-spacing:2px}
+h1{font-size:clamp(36px,6vw,58px);color:#416db8;line-height:1.4;margin:15px 0}
+h1 span{color:#e77db8}
+.hero p{line-height:2;color:#66748e}
+.btn{display:inline-block;margin-top:24px;padding:12px 28px;border-radius:30px;background:linear-gradient(90deg,#6698e5,#c18be1);color:white;text-decoration:none}
+.profile{width:250px;height:250px;border-radius:50%;border:9px solid white;background:linear-gradient(135deg,#b4d5ff,#f5b9dd);display:flex;align-items:center;justify-content:center;font-size:90px;box-shadow:0 12px 35px #8a9edc55;margin:auto}
+section{padding:75px 10%;scroll-margin-top:65px}
+.heading{text-align:center;margin-bottom:38px}
+.heading h2{font-size:32px;color:#527bc1}
+.heading p{font-size:13px;color:#c17eae;margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:white;padding:27px;border-radius:20px;box-shadow:0 5px 25px #526b9812;border:1px solid #f1eff9;transition:.3s}
+.card:hover{transform:translateY(-5px)}
+.card .icon{font-size:37px;margin-bottom:14px}
+.card h3{color:#6586c5;font-size:18px;margin-bottom:10px}
+.card p{font-size:14px;color:#718098;line-height:2}
+.skills{background:#eff5ff}
+.skill-list{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
+.skill{background:white;padding:12px 23px;border-radius:30px;color:#6383c0;box-shadow:0 3px 15px #778eb522;font-size:14px}
+.projects{background:#fff}
+.project-icon{height:120px;border-radius:15px;background:linear-gradient(135deg,#e1efff,#ffe4f3);display:flex;justify-content:center;align-items:center;font-size:48px;margin-bottom:16px}
+.project-card{background:white;padding:17px;border-radius:20px;box-shadow:0 5px 25px #526b9812}
+.project-card h3{color:#6484c3;font-size:17px;margin-bottom:8px}
+.project-card p{font-size:13px;line-height:1.8;color:#77839a}
+.project-card a{display:inline-block;margin-top:12px;color:#dc76b4;text-decoration:none;font-size:13px}
+.quote{text-align:center;padding:38px;background:linear-gradient(120deg,#e6f0ff,#ffedf7);border-radius:22px}
+.quote h2{color:#6385c7;margin-bottom:15px}
+.quote p{line-height:2;color:#697a99}
+.contact{text-align:center;background:#f3efff}
+.contact a{color:#6485c6;text-decoration:none;overflow-wrap:anywhere}
+footer{text-align:center;background:#304c7d;color:white;padding:23px;font-size:13px}
+@media(max-width:650px){
+nav{flex-direction:column;gap:12px;padding:14px 4%}
+nav ul{gap:12px;flex-wrap:wrap;justify-content:center}
+nav a{font-size:12px}
+.hero{text-align:center;padding:60px 7%}
+.profile{width:210px;height:210px}
+section{padding:60px 7%}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">♡ ARISARA</div>
+<ul>
+<li><a href="#home">หน้าแรก</a></li>
+<li><a href="#about">เกี่ยวกับฉัน</a></li>
+<li><a href="#skills">ทักษะ</a></li>
+<li><a href="#portfolio">ผลงาน</a></li>
+<li><a href="#contact">ติดต่อ</a></li>
+</ul>
+</nav>
+
+<header class="hero" id="home">
+<div class="hero-text">
+<small>WELCOME TO MY E-PORTFOLIO ♡</small>
+<h1>สวัสดีค่ะ<br>ฉันชื่อ <span>อริสรา</span></h1>
+<p>
+ยินดีต้อนรับเข้าสู่เว็บไซต์แฟ้มสะสมผลงานออนไลน์ของฉัน
+พื้นที่รวบรวมประวัติส่วนตัว ความสามารถ ผลงาน
+และประสบการณ์การเรียนรู้ของฉัน
+</p>
+<a href="#about" class="btn">ทำความรู้จักฉัน →</a>
+</div>
+<div class="profile">👩🏻‍🎓</div>
+</header>
+
+<section id="about">
+<div class="heading">
+<h2>ABOUT ME</h2>
+<p>♡ ประวัติส่วนตัวของฉัน ♡</p>
+</div>
+<div class="grid">
+<div class="card">
+<div class="icon">👩🏻‍🎓</div>
+<h3>ข้อมูลส่วนตัว</h3>
+<p>
+ชื่อ-นามสกุล : อริสรา พระสุรินทร์<br>
+สถานศึกษา : โรงเรียนธัญรัตน์<br>
+สาขา : ศิลป์ธุรกิจการค้าสมัยใหม่
+</p>
+</div>
+<div class="card">
+<div class="icon">🌷</div>
+<h3>ความสนใจ</h3>
+<p>
+ชอบเรียนรู้สิ่งใหม่ ๆ สนใจด้านธุรกิจ
+การค้าสมัยใหม่ การบริการ
+และการพัฒนาความสามารถของตนเอง
+</p>
+</div>
+<div class="card">
+<div class="icon">🚢</div>
+<h3>ความฝันในอนาคต</h3>
+<p>
+อาชีพที่ใฝ่ฝัน : ทำงานบนเรือ<br>
+ต้องการเก็บเกี่ยวประสบการณ์
+พัฒนาตนเอง และสร้างอนาคตที่ดี
+</p>
+</div>
+</div>
+</section>
+
+<section class="skills" id="skills">
+<div class="heading">
+<h2>MY SKILLS</h2>
+<p>♡ ทักษะและความสามารถ ♡</p>
+</div>
+<div class="skill-list">
+<div class="skill">💬 การสื่อสาร</div>
+<div class="skill">🤝 การทำงานเป็นทีม</div>
+<div class="skill">📚 การเรียนรู้</div>
+<div class="skill">💻 เทคโนโลยี</div>
+<div class="skill">🌟 ความรับผิดชอบ</div>
+<div class="skill">🌏 การบริการ</div>
+</div>
+</section>
+
+<section id="portfolio" class="projects">
+<div class="heading">
+<h2>MY PORTFOLIO</h2>
+<p>♡ ผลงานและโปรเจกต์ ♡</p>
+</div>
+<div class="grid">
+<div class="project-card">
+<div class="project-icon">🌐</div>
+<h3>เว็บไซต์ E-Portfolio</h3>
+<p>ผลงานการสร้างเว็บไซต์แนะนำตัวเองด้วย HTML และ CSS</p>
+<a href="https://github.com/tr32220-prog/e-portfolio5" target="_blank">ดูผลงาน GitHub →</a>
+</div>
+<div class="project-card">
+<div class="project-icon">📊</div>
+<h3>ผลงานด้านธุรกิจ</h3>
+<p>พื้นที่แสดงผลงานและกิจกรรมเกี่ยวกับธุรกิจการค้าสมัยใหม่</p>
+</div>
+<div class="project-card">
+<div class="project-icon">🏆</div>
+<h3>เกียรติบัตร</h3>
+<p>พื้นที่รวบรวมเกียรติบัตรและความสำเร็จจากการเรียนรู้</p>
+</div>
+</div>
+</section>
+
+<section id="activities" class="skills">
+<div class="heading">
+<h2>MY ACTIVITIES</h2>
+<p>♡ กิจกรรมและประสบการณ์ ♡</p>
+</div>
+<div class="grid">
+<div class="card">
+<div class="icon">🏫</div>
+<h3>กิจกรรมในโรงเรียน</h3>
+<p>เพิ่มรูปภาพและรายละเอียดกิจกรรมที่เคยเข้าร่วม</p>
+</div>
+<div class="card">
+<div class="icon">🌈</div>
+<h3>ประสบการณ์</h3>
+<p>บันทึกประสบการณ์และสิ่งที่ได้เรียนรู้</p>
+</div>
+<div class="card">
+<div class="icon">🎖️</div>
+<h3>ความภาคภูมิใจ</h3>
+<p>เพิ่มผลงานหรือความสำเร็จที่ต้องการนำเสนอ</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="quote">
+<h2>MY DREAM 🚢</h2>
+<p>
+"ทุกความฝันเริ่มต้นจากความพยายาม<br>
+ฉันจะตั้งใจเรียนรู้และพัฒนาตัวเอง<br>
+เพื่อก้าวไปสู่อนาคตที่ฉันตั้งใจไว้"
+</p>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="heading">
+<h2>CONTACT ME</h2>
+<p>♡ ติดตามผลงานของฉัน ♡</p>
+</div>
+<div class="card">
+<div class="icon">💌</div>
+<h3>GitHub</h3>
+<p>
+<a href="https://github.com/tr32220-prog/e-portfolio5" target="_blank">
+github.com/tr32220-prog/e-portfolio5
+</a>
+</p>
+</div>
+</section>
+
+<footer>
+© 2026 ARISARA PRASURIN | MY E-PORTFOLIO ♡
+</footer>
+
+</body>
+</html>
